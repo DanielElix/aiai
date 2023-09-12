@@ -4,12 +4,14 @@
     <meta charset="utf-8">
     <title>AiAi ♥ - Timeline</title>
     <link rel="stylesheet" href="view/style.css">
-  </head>
+    </head>
   <body>
 
     <div id="blue-bar">  <!-- start blue bar -->
-      <div style="width: 800px; margin: auto; font-size: 30px;" class="">
-        Sylla &nbsp &nbsp <input type="text" name="" id="search-box" value="" placeholder="Search in Sylla for losers...">
+    
+      <div style="width: 800px; margin: auto; font-size: 30px;" class="container">
+      <img src="images/aiai.png" style="width: 75px; float: left;" alt="">
+        <input type="text" name="" id="search-box" value="" placeholder="Search in Sylla for losers...">
         <img src="images/selfie.jpg" class="profile" alt="">
       </div>
     </div> <!-- end blue bar -->
