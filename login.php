@@ -48,7 +48,7 @@
       border: none;
     }
     </style>
-    <link rel="stylesheet" href="/style/style.css">
+    <link rel="stylesheet" href="/view/style.css">
   </head>
   <body style="font-family: tahoma; background-color: #e9ebee;">
 <div id="bar">

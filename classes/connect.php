@@ -11,7 +11,6 @@ class Database
 
     function connect()
     {
-
         $connection = mysqli_connect($this->host,$this->username,$this->password,$this->db) OR die('could not connect because:'. mysqli_connect_error());
         return $connection;
     }
@@ -50,10 +49,4 @@ class Database
     }
 }
 
-$DB = new Database();
-$query = "SELECT * FROM users";
-$data = $DB->read($query);
-echo "<pre>";
-print_r($data);
-echo "</pre>";
-?>
+
